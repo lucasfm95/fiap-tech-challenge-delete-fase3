@@ -1,0 +1,12 @@
+C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Application\bin\Debug\net8.0\Fiap.TechChallenge.Application.deps.json
+C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Application\bin\Debug\net8.0\Fiap.TechChallenge.Application.dll
+C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Application\bin\Debug\net8.0\Fiap.TechChallenge.Application.pdb
+C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Application\obj\Debug\net8.0\Fiap.TechChallenge.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Application\obj\Debug\net8.0\Fiap.TechChallenge.Application.AssemblyInfoInputs.cache
+C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Application\obj\Debug\net8.0\Fiap.TechChallenge.Application.AssemblyInfo.cs
+C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Application\obj\Debug\net8.0\Fiap.TechChallenge.Application.csproj.CoreCompileInputs.cache
+C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Application\obj\Debug\net8.0\Fiap.TechChallenge.Application.sourcelink.json
+C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Application\obj\Debug\net8.0\Fiap.TechChallenge.Application.dll
+C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Application\obj\Debug\net8.0\refint\Fiap.TechChallenge.Application.dll
+C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Application\obj\Debug\net8.0\Fiap.TechChallenge.Application.pdb
+C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Application\obj\Debug\net8.0\ref\Fiap.TechChallenge.Application.dll
