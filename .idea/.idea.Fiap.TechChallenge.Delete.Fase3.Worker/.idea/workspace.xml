@@ -39,7 +39,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.Fiap.TechChallenge.Delete.Fase3.Worker.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "create-solution",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726008092521</updated>
-      <workItem from="1726008093601" duration="6387000" />
+      <workItem from="1726008093601" duration="6639000" />
     </task>
     <servers />
   </component>
