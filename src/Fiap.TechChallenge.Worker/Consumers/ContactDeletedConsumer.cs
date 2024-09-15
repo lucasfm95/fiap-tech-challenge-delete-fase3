@@ -1,16 +1,22 @@
 using Fiap.TechChallenge.Application.Services.Interfaces;
 using Fiap.TechChallenge.LibDomain.Events;
 using MassTransit;
+using Prometheus;
 
-namespace Fiap.TechChallenge.Delete.Fase3.Worker.Consumers;
+namespace Fiap.TechChallenge.Worker.Consumers;
 
 public class ContactDeletedConsumer(ILogger<ContactDeletedConsumer> logger, IContactService contactService)
     : IConsumer<ContactDeleteEvent>
 {
+    private static readonly Counter ProcessedJobsCounter =
+        Metrics.CreateCounter("deleted_contact_total_processed", "Number of Contact Deleted consumed.");
     public async Task Consume(ConsumeContext<ContactDeleteEvent> context)
     {
         try
         {
+            //Prometheus metrics
+            ProcessedJobsCounter.Inc();
+            
             var result = await contactService.DeleteAsync(context.Message.Id, context.CancellationToken);
             if (!result)
             {

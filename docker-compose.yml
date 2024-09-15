@@ -1,0 +1,24 @@
+name: "fiap-tech-challenge-deleted-worker"
+services:
+  contact-deleted-consumer-worker:
+    container_name: contact-deleted-consumer
+    image: contact-deleted-consumer:1    
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        version: 1
+    environment:
+      MASS_TRANSIT_USERNAME: ${MASS_TRANSIT_USERNAME}
+      MASS_TRANSIT_PASSWORD: ${MASS_TRANSIT_PASSWORD}
+      MASS_TRANSIT_HOST: ${MASS_TRANSIT_HOST}
+      MASS_TRANSIT_PORT: ${MASS_TRANSIT_PORT}
+      CONNECTION_STRING_DB_POSTGRES: Host=postgres;Port=5432;Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD};Database=${POSTGRES_DB}
+    restart: always
+    networks:
+      - fiap-tech-challenge_network
+    ports:
+      - 8890:80
+networks:
+  fiap-tech-challenge_network:
+    driver: bridge

@@ -1,7 +1,7 @@
 using Fiap.TechChallenge.Application.Services.Interfaces;
-using Fiap.TechChallenge.Delete.Fase3.Worker.Consumers;
 using Fiap.TechChallenge.Domain;
 using Fiap.TechChallenge.LibDomain.Events;
+using Fiap.TechChallenge.Worker.Consumers;
 using MassTransit.Testing;
 using Microsoft.Extensions.Logging;
 using Moq;
