@@ -12,7 +12,7 @@ C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Infra
 C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Infrastructure\obj\Debug\net8.0\Fiap.TechChallenge.Infrastructure.AssemblyInfo.cs
 C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Infrastructure\obj\Debug\net8.0\Fiap.TechChallenge.Infrastructure.csproj.CoreCompileInputs.cache
 C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Infrastructure\obj\Debug\net8.0\Fiap.TechChallenge.Infrastructure.sourcelink.json
-C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Infrastructure\obj\Debug\net8.0\Fiap.TechChallenge.Infrastructure.csproj.CopyComplete
+C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Infrastructure\obj\Debug\net8.0\Fiap.Tec.80ADF156.Up2Date
 C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Infrastructure\obj\Debug\net8.0\Fiap.TechChallenge.Infrastructure.dll
 C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Infrastructure\obj\Debug\net8.0\refint\Fiap.TechChallenge.Infrastructure.dll
 C:\workspace\fase3\fiap-tech-challenge-delete-fase3\src\Fiap.TechChallenge.Infrastructure\obj\Debug\net8.0\Fiap.TechChallenge.Infrastructure.pdb
