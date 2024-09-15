@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fiap.TechChallenge.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21a3f09902b103770a295ddc6bfdd7fd921ed66b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+918722ee4d95e756f36a5bd0c97bd14227598799")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fiap.TechChallenge.UnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fiap.TechChallenge.UnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
