@@ -29,6 +29,7 @@ internal static class DependencyInjectionConfig
                 var massTransitPort = ushort.Parse(Environment.GetEnvironmentVariable("MASS_TRANSIT_PORT") ?? "0");
                 var massTransitUser = Environment.GetEnvironmentVariable("MASS_TRANSIT_USERNAME") ?? string.Empty;
                 var massTransitPassword = Environment.GetEnvironmentVariable("MASS_TRANSIT_PASSWORD") ?? string.Empty;
+                var massTransitQueueName = Environment.GetEnvironmentVariable("MASS_TRANSIT_DELETE_QUEUE_NAME") ?? string.Empty;
 
                 cfg.Host(massTransitHost, massTransitPort, "/", hostConfigurator =>
                 {
@@ -36,11 +37,10 @@ internal static class DependencyInjectionConfig
                     hostConfigurator.Password(massTransitPassword);
                 });
 
-                cfg.ReceiveEndpoint("contact-delete-queue", e =>
-                {
-                    e.ConfigureConsumer<ContactDeletedConsumer>(context);
-                });
+                cfg.ReceiveEndpoint(massTransitQueueName, e => e.ConfigureConsumer<ContactDeletedConsumer>(context));
+                
             });
+            
             busRegistrationConfigurator.AddConsumer<ContactDeletedConsumer>();
         });
     }

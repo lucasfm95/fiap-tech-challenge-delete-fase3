@@ -13,8 +13,9 @@ services:
       MASS_TRANSIT_PASSWORD: ${MASS_TRANSIT_PASSWORD}
       MASS_TRANSIT_HOST: ${MASS_TRANSIT_HOST}
       MASS_TRANSIT_PORT: ${MASS_TRANSIT_PORT}
+      MASS_TRANSIT_DELETE_QUEUE_NAME: ${MASS_TRANSIT_DELETE_QUEUE_NAME}
       CONNECTION_STRING_DB_POSTGRES: Host=postgres;Port=5432;Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD};Database=${POSTGRES_DB}
-    restart: always
+    restart: unless-stopped
     networks:
       - fiap-tech-challenge_network
     ports:
